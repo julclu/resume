@@ -1,0 +1,300 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Julia Cluceru } & Email : \href{mailto:julia.cluceru@ucsf.edu}{julia.cluceru@ucsf.edu}\\
+  & Mobile : +1-203-536-9771 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California}{San Francisco, California}
+      {Ph.D. in Pharmaceutical Sciences and Pharmacogenomics}{Sept. 2015 -- July 2020 (exp)}
+      \resumeSubheading
+      {University of North Carolina}{Chapel Hill, NC}
+      {B.A. Mathematics, B.A. Chemistry, GPA 3.53}{Sept. 2009 -- May 2013}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Academic Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Lupo Lab, UCSF}{Sab Francisco, CA}
+      {Ph.D. Candidate}{April 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{Advisor}
+          {Asst. Professor in Residence, Janine Lupo, Ph.D., UCSF Department of Radiology and Biomedical Imaging}
+        \resumeItem{Proposed Dissertation Title}
+          {Proposed dissertation title: Multiparametric Magnetic Resonance Imaging to Predict Tumor Biology}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bautch Lab, UNC-CH}{Chapel Hill, NC}
+      {Undergraduate Research Assistant}{Sept. 2011 - Aug. 2013}
+      \resumeItemListStart
+        \resumeItem{Advisor}{Professor Victoria Bautch, Ph.D., Beverly Long Chapin Distinguished Professor and Chair of Biology}
+        \resumeItem{Publications}
+            \resumeItemListStart
+                \resumeItem{Blood vessel anastomosis is spatially regulated by flt-1 during angiogenesis}
+                    {Nesmith JE, Chappell JC, Cluceru JG, Bautch VL., Development. 2017 Mar 1;144(5):889-896.}
+                \resumeItem{Flt-1 (VEGFR-1) coordinates discrete stages of blood vessel formation}
+                    {Chappell JC, Cluceru JG, Nesmith JE, Mouillesseaux KP, Bradley VB, Hartland CM, Hashambhoy-Ramsay YL, Walpole J, Peirce SM, Mac Gabhann F, Bautch VL. Cardiovasc Res. 2016 Jul 1;111(1):84-93}
+                \resumeItem{Agent-based model of angiogenesis simulates capillary sprout initiation in multicellular networks}
+                    {Walpole J, Chappell JC, Cluceru JG, Mac Gabhann F, Bautch VL, Peirce SM., Integr Biol (Camb). 2015 Sep;7(9):987-97}
+            \resumeItemListEnd
+%        \resumeItem{Laboratory Skills}
+%          {Stem cell culture, PCR, live imaging microscopy, gel electrophoresis, cell fractionation, distillation, titration, data collection and analysis}
+      \resumeItemListEnd
+    \resumeSubheading
+      {McLaughlin Lab, UNC-CH}{Chapel Hill, NC}
+      {Undergraduate Research Assistant}{Sept. 2010 - June 2011}
+      \resumeItemListStart
+        \resumeItem{Advisor}{Professor Richard McLaughlin, Ph.D., Chair of Mathematics}
+        \resumeItem{Fluid dynamics research project}
+          {Designed and filmed fluid dynamics experiments for support of the project "Settling dynamics of solid spheres in viscous stratified fluids: the entrainment dominated regime"}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {McManus Lab, Columbia University}{Lamont-Doherty Earth Observatory, Palisades, NY}
+      {NSF Research Experience for Undergraduates Fellowship}{Summer 2011}
+      \resumeItemListStart
+        \resumeItem{Advisor}
+          {Professor Jerry F. McManus, Ph.D., Dept. of Geochemistry}
+        \resumeItem{Particle dyanmics research project}
+          {Researching the biochemical flux of particles settling on the ocean floor using oceanic cores derived from the Atlantic ocean. Discovered a major oceanic circulation change ~125kyr during a historic global warming period, informing prediction of future oceanic circulation changes due to global warming.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------TEACHING & LEADERSHIP-----------------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Tutor Corps}{San Francisco, CA}
+      {Test Preparation and Academic Tutor}{Dec. 2015 - pres.}
+      \resumeItemListStart
+        \resumeItem{Mathematics}
+          {Elementary math, algebra, geometry, pre-calculus, calculus, AP statistics, AP Calculus}
+        \resumeItem{Science}
+          {Elementary and middle school science, biology, chemistry, physics, AP Biology, AP Chemistry}
+        \resumeItem{Test Preparation}
+            {SAT Mathematics, ACT Mathematics, ACT Science, SSAT, SAT II Chemistry, SAT II Mathematics 1 \& 2} 
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Drugs of the Central Nervous System, UCSF School of Pharmacy}{San Francisco, CA}
+      {Teaching Assistant}{April 2017 - June 2017}
+      \resumeItemListStart
+        \resumeItem{Advisor}
+          {Associate Professor Pamela England, Ph.D.}
+        \resumeItem{Responsibilities}
+            {Oversight of student-led presentations, grading assignments}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Greenwich Education Group}{Greenwich, CT}
+      {Test Preparation and Academic Tutor}{Aug. 2014 - Sept. 2015}
+      \resumeItemListStart
+        \resumeItem{Mathematics}
+          {Elementary math, algebra, geometry, pre-calculus, calculus, AP statistics, AP Calculus}
+        \resumeItem{Science}
+          {Elementary and middle school science, biology, chemistry, physics, AP Biology, AP Chemistry}
+        \resumeItem{Test Preparation}
+            {SAT Mathematics, ACT Mathematics, ACT Science, SSAT, SAT II Chemistry, SAT II Mathematics 1 \& 2} 
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Freelance}{Madrid, Spain}
+      {Academic Tutor}{Aug. 2013 - July. 2014}
+      \resumeItemListStart
+        \resumeItem{English As a Second Language}
+          {Reinforced and taught bilingual school students science and math in English.}
+      \resumeItemListEnd
+      
+   \resumeSubheading
+      {Freelance}{Chapel Hill, NC; Stamford, CT}
+      {Academic Tutor}{2006 - Sep 2013}
+      \resumeItemListStart
+        \resumeItem{Mathematics}
+          {Elementary math, algebra, geometry, pre-calculus, calculus, AP statistics, AP Calculus}
+        \resumeItem{Science}
+          {Elementary and middle school science, biology, chemistry, physics, AP Biology, AP Chemistry}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------DISTINCTIONS-----------------
+\section{Distinctions \& Honors}
+  \resumeSubHeadingListStart
+    \resumeSubItem{National Institute of General Medical Sciences Ruth L. Kirschstein National Research Service Award (NRSA) Predoctoral Institutional Research Training Grant (T32)}
+      {Fellows receive 23,844.00 for research-related expenses. September 2017-September 2018}
+    \resumeSubItem{Pi Mu Epsilon Math Honors society}
+      {Inducted in 2013}
+    \resumeItem{Dean's List}{Appeared on 7 out of 8 semesters at UNC-CH}
+    \resumeSubItem{Test scores}
+      {MCAT: 36 - 97th percentile; PCAT: 442 - 99th percentile; GRE: 166 - 94th percentile; SAT: 2260 - 99th percentile}
+  \resumeSubHeadingListEnd
+
+
+%--------SKILLS & TECHNIQUES------------
+\section{Skills}
+  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Programming Languages}{: R, python, Octave}
+%      \hfill
+%      \textbf{Technologies}{: Stem cell culture, PCR, live imaging microscopy, gel electrophoresis, cell fractionation, distillation, titration, data collection and analysis}
+%    }
+    \resumeSubItem{Programming Languages}{R, python, octave, bash, cshell, Linux environment}
+    \resumeSubItem{Analysis}{Data wrangling, imputation, machine learning, applied statistics}
+    \resumeSubItem{Mathematics}{Differential equations, multi-variable calculus, linear algebra}
+    \resumeSubItem{Laboratory Technologies}{Stem cell culture, PCR, live imaging microscopy, gel electrophoresis, cell fractionation}
+  \resumeSubHeadingListEnd
+
+%--------PRESENTATIONS------------
+\section{Presentations \& Posters}
+  \resumeSubHeadingListStart
+    \resumeItem{Nov. 2016}{Hidden secrets of bulk tissue: Understanding glioma through meta-analysis of transcriptional data. Quantitative Biosciences Consortium Retreat Poster Session}
+    \resumeItem{Aug. 2011}{Piecing Together Ocean Circulation Changes: How the North Atlantic Circulation Changed from MIS 6 to MIS 5e. NSF REU Poster Session}
+  \resumeSubHeadingListEnd
+
+%--------CONFERENCES------------
+\section{Conferences}
+  \resumeSubHeadingListStart
+    \resumeItem{March 2017}{International Society for Magnetic Resonance Imaging Machine Learning Workshop}
+    {Asilomar Conference Grounds, Monterey, CA}
+    \resumeItem{May. 2017}{Department of Radiology and Biomedical Imaging annual retreat}
+    \resumeItem{Feb. 2017}{American Association of Pharmaceutical Sciences InSight Asia-Pacific Research Symposium}
+    
+    \resumeItem{Feb. 2016}{Immune checkpoint inhibition for Hypermutant GBM resulting from germline MMR deficiency. Quantitative Biosciences Consortium Journal Club}
+    \resumeItem{Aug. 2011}{Piecing Together Ocean Circulation Changes: How the North Atlantic Circulation Changed from MIS 6 to MIS 5e. NSF REU Poster Session}
+  \resumeSubHeadingListEnd
+  
+  
+%--------VOLUNTEERING------------
+%\section{Volunteering}
+%  \resumeSubHeadingListStart
+%    \resumeSubheading{Big Brothers & Big Sisters of America}{Chapel Hill, NC}{Big Sister}{Jan 2010 - May 2013}
+%        \resumeSubItem{Volunteer}{Department of Radiology and Biomedical Imaging annual retreat}
+%  \resumeSubHeadingListEnd
+  
+%--------VOLUNTEERING------------
+%\section{Volunteering \& Professional Associations}
+%    \resumeSubHeadingListStart
+%        \resumeSubheading
+%        {American Association of Pharmaceutical Science}{San Francisco, CA}
+%        {Member}{Jan 2016 - pres.}
+%        \resumeSubheading
+%        {Big Brothers Big Sisters of America}{Chapel Hill, NC}
+%        {Big Sister}{Jan 2010 - May 2013}
+%            \resumeItemListStart
+%                \resumeItem{Anaies Gibson}{Mentored and tutored Anaies for 3 years in all subjects.}
+%                \resumeItem{Organizational support}{Organized BBBS of the Triangle meetings at the Campus Y}
+%            \resumeItemListEnd
+%        \resumeSubheading
+%        {Alpha Chi Sigma}{Chapel Hill, NC}
+%        {Brother}{Jan 2011 - May 2013}
+%            \resumeItemListStart
+%               \resumeItem{Professional Chemistry Fraternity}{Member}
+%            \resumeItemListEnd
+%        \resumeSubheading
+        
+ %   \resumeSubHeadingListEnd
+    
+    
+\section{Leadership \& Professional Associations}    
+    \resumeSubHeadingListStart
+        \resumeSubheading
+              {American Association of Pharmaceutical Sciences}{San Francisco, CA}
+              {Member}{2016 - pres.}
+        \resumeSubheading
+              {International Society for Magnetic Resonance Imaging}{San Francisco, CA}
+              {Trainee Member}{2017 - pres.}
+        \resumeSubheading
+            {Big Brothers Big Sisters of America}{Chapel Hill, NC}
+            {Big Sister}{Jan 2010 - May 2013}
+            \resumeItemListStart
+                \resumeItem{Anaies Gibson}{Mentored and tutored Anaies for 3 years in all subjects}
+                \resumeItem{Organizational support}{Organized BBBS of the Triangle meetings at the Campus Y}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
